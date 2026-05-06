@@ -1,0 +1,19 @@
+.page {
+  padding: 10px;
+}
+
+.filterBox {
+  margin-bottom: 20px;
+}
+
+.filterBox select {
+  margin-left: 10px;
+  padding: 8px 10px;
+  border-radius: 8px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}

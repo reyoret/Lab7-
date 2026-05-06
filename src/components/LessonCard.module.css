@@ -1,0 +1,27 @@
+.card {
+  border: 1px solid #dbc9e6;
+  border-radius: 16px;
+  padding: 16px;
+  background: #ffffff;
+  box-shadow: 0 6px 18px rgba(45, 0, 64, 0.08);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  margin-bottom: 10px;
+  color: #2d0040;
+}
+
+.button {
+  margin-top: 10px;
+  border: none;
+  background: #9b59b6;
+  color: white;
+  padding: 10px 12px;
+  border-radius: 10px;
+  cursor: pointer;
+}
